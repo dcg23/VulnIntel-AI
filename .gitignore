@@ -1,0 +1,45 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# IDE settings
+.idea/
+.vscode/
+
+# Raw and processed datasets
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+# Results: publish selected research evidence only
+outputs/results/*
+!outputs/results/.gitkeep
+!outputs/results/model_comparison.csv
+!outputs/results/model_selection_summary.txt
+!outputs/results/class_balance.csv
+!outputs/results/temporal_split_summary.csv
+!outputs/results/target_temporal_audit.csv
+
+# Figures: publish selected visual evidence only
+outputs/figures/*
+!outputs/figures/.gitkeep
+!outputs/figures/model_comparison_dashboard.png
+!outputs/figures/combined_ml_precision_recall_curves.png
+!outputs/figures/class_balance.png
+
+# Feature importance outputs
+outputs/feature_importance/*
+!outputs/feature_importance/.gitkeep

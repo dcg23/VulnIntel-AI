@@ -1,0 +1,2 @@
+split_method,target_interpretation,requested_train_fraction,training_rows,testing_rows,excluded_missing_publication_date_rows,training_start,training_end,testing_start,testing_end,training_kev_rate,testing_kev_rate,prospective_forecast
+chronological_by_cve_publication_date,retrospective_membership_in_downloaded_kev_snapshot,0.8,8000,2000,0,2023-01-01 01:15:12.627000+00:00,2023-04-12 22:15:18.693000+00:00,2023-04-12 22:15:18.887000+00:00,2023-05-09 18:15:11.970000+00:00,0.00525,0.0045,False

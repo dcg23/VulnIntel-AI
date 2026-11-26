@@ -1,0 +1,5 @@
+model,precision_class_1,recall_class_1,f1_class_1,pr_auc_average_precision,accuracy_additional,tn,fp,fn,tp,confusion_matrix
+Logistic Regression,0.0,0.0,0.0,0.011158965623494489,0.977,1954,37,9,0,"[[1954, 37], [9, 0]]"
+XGBoost,0.0,0.0,0.0,0.005624009910124076,0.994,1988,3,9,0,"[[1988, 3], [9, 0]]"
+Random Forest,0.0,0.0,0.0,0.00542285738570724,0.9955,1991,0,9,0,"[[1991, 0], [9, 0]]"
+Majority-class Dummy,0.0,0.0,0.0,0.0045,0.9955,1991,0,9,0,"[[1991, 0], [9, 0]]"

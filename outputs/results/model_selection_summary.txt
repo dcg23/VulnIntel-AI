@@ -1,0 +1,5 @@
+Model selection is based on actual held-out test results from this run.
+Primary PR-AUC model: Logistic Regression (PR-AUC=0.011159, precision=0.000000, recall=0.000000, FN=9, FP=37).
+Fewest-false-negative model(s): Logistic Regression, XGBoost, Random Forest (FN=9; ties are reported).
+Critical threshold finding: every main model had zero KEV recall and missed every exploited CVE in the held-out test set. High accuracy is therefore misleading for this run.
+PR-AUC is the primary ranking metric because KEV is the minority class. Operational selection should also consider recall and false negatives: missing an exploited CVE can cause dangerous under-prioritization. False positives have a different cost, including unnecessary patching urgency, analyst effort, and remediation resources.
